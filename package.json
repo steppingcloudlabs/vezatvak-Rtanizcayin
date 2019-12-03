@@ -1,34 +1,36 @@
 {
-  "name": "vezatvak-rtanizcayin",
-  "version": "1.0.0",
-  "description": "Tenant Resolver",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "bunyan": "^1.8.12",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-rate-limit": "^5.0.0",
-    "express-session": "^1.17.0",
-    "helmet": "^3.21.2",
-    "jsonschema": "^1.2.5",
-    "mongoose": "^5.7.13",
-    "nodemon": "^2.0.1",
-    "rate-limiter-flexible": "^1.1.6"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/steppingcloudlabs/vezatvak-Rtanizcayin.git"
-  },
-  "author": "Prakritidev Verma [github.com/prakritidev]",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/steppingcloudlabs/vezatvak-Rtanizcayin/issues"
-  },
-  "homepage": "https://github.com/steppingcloudlabs/vezatvak-Rtanizcayin#readme"
+    "name": "vezatvak-rtanizcayin",
+    "version": "1.0.0",
+    "description": "Tenant Resolver",
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "bunyan": "^1.8.12",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-rate-limit": "^5.0.0",
+        "express-session": "^1.17.0",
+        "helmet": "^3.21.2",
+        "jsonschema": "^1.2.5",
+        "mongoose": "^5.7.13",
+        "mongoose-type-url": "^1.0.6",
+        "nodemon": "^2.0.1",
+        "rate-limiter-flexible": "^1.1.6"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/steppingcloudlabs/vezatvak-Rtanizcayin.git"
+    },
+    "author": "Prakritidev Verma [github.com/prakritidev]",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/steppingcloudlabs/vezatvak-Rtanizcayin/issues"
+    },
+    "homepage": "https://github.com/steppingcloudlabs/vezatvak-Rtanizcayin#readme"
 }
